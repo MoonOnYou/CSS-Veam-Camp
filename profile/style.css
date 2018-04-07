@@ -1,0 +1,72 @@
+/*여기는 순수하게 css내용만 들어가면 된다.*/
+/*기본적인 재료손질은 제일 위에 */
+h2,ul{
+    margin: 0; /*모든 h2에있는 기본마진을 없애겟다*/
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+/* 기본스타일 리셋하기임 */
+
+body{
+    background-color: #222;
+}
+
+div.wrapper{
+    background-color: #dfdfdf;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 30px;   
+    overflow: hidden;
+}   /* div생략가능,생략할 경우 div가 아닌 모든 wrapper클래스가 선택된다. */
+div.header{
+    background-image: url(images/header-bg.png);
+    height: 350px;
+    text-align: center;
+}
+div.contents{
+
+}
+.secion{
+    background-color: white;
+    background-image: url(images/icon-info.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin: 20px;
+    padding: 20px;
+}
+.secion h2{
+    color: dodgerblue;
+    margin-bottom: 20px;
+    
+}
+.secion li{
+    border-left: 5px solid #ddd;
+    padding: 5px 10px;
+}
+.secion li:hover{
+    border-color: dodgerblue;
+}
+.skill {
+    background-image: url(images/icon-skill.png);
+}
+div.footer{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #999;
+}
+img.profile{
+    margin-top: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+/*
+    width: 50px;
+    height: 50px;
+*/
+}
+.header h1{
+    color: white;
+}
