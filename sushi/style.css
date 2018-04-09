@@ -1,0 +1,32 @@
+/* COMMON */
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* DESIGN */
+body {
+    background-color: #efefef;
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: #888;
+    font-size: 14px;
+}
+
+.onebox{ 
+    border-top: 2px solid #888;
+    padding: 20px;
+    overflow: hidden; }
+
+.sushititle{
+    color: red;
+}
+.sushiphoto{
+    margin: 10px;
+    border: 2px solid #888;
+    float: right;
+}
+.sushiphoto.tobicophoto{
+    float: left;
+}
